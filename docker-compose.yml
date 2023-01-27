@@ -1,0 +1,15 @@
+
+version: '3'
+services:
+  app1:
+    build:
+      context: planner
+      dockerfile: DockerFile_planner
+    ports:
+      - "3000:3000"
+  app2:
+    build:
+      context: worker
+      dockerfile: DockerFile_worker
+    ports:
+      - "8080:8080"
