@@ -1,7 +1,7 @@
 
 ## Comment l'installer ?
 ```bash
-https://github.com/devops-master-4/docker-eval
+git clone https://github.com/devops-master-4/docker-eval
 cd docker-eval
 cd planner/ && npm i && cd ../worker && npm i 
 ```
@@ -27,7 +27,7 @@ ADDRESS=worker
 Voici la structure dans mon répertoire: 
 ```bash 
 ├── build.sh
-├── docker-composer.yml
+├── docker-compose.yml
 ├── package-lock.json
 ├── planner
 │   ├── connect.sh
@@ -56,11 +56,11 @@ npm start # dans le dossier worker
 npm start # dans le dossier planner
 ```
 
-## Laner le docker : 
+## Lancer le docker : 
 Vous pouvez également utiliser les docker 
 ```bash
 chmod +x build.sh &&./build.sh chmod +x run.sh && ./run.sh
 ```
 
-Ou vous pouvez utiliser également le fichier docker-composer.yml
+Ou vous pouvez utiliser également le fichier docker-compose.yml
 
