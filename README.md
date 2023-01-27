@@ -38,7 +38,7 @@ Voici la structure dans mon répertoire:
 │   ├── readme.md
 │   ├── service.yaml
 │   └── yarn.lock
-├── readme_luc.md
+├── readme.md
 ├── README.md
 ├── run.sh
 └── worker
